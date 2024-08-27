@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<!--Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">MILE</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+
+    </div>
+<!--Inicio-->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="styles/images/foto2.jpg" alt="">
+        </div>
+        <h1>MILENA VILLALBA</h1>
+        <h2>Python Developer</h2>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/milena-bravo1827" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/MILEcbr" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p><span>Hola, Soy Milena.</span>Programador con experiencia en Python.
+             Apasionada por resolver problemas y mejorar la eficiencia del software. 
+             Realicé cursos de programación y desarrollo web (HTML, CSS, JavaScript, WordPress) 
+             en los cuales desarrollé proyectos individuales y grupales para los cuales adjunto en la seccion del portfolio. </p>
+            <div class="fila"> <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            18/12/1992
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 11 23938727
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            milebravo1827@gmail.com
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            La Plata, Buenos Aires
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">  <!--intereses-->
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span>DIBUJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <span>REPOSTERIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Botón de descarga -->
+            <a href="descargas/CV Villalba Milena Carolina.docx" download="milena villalba-cv.docx" class="download-button">
+                Descargar CV <i class="fas fa-cloud-arrow-down"></i>
+                <span class="overlay"></span>
+            </a>
+    </div>
+</section>
+<!--habilidades-->
+<section class="habilidades" id="habilidades">
+    <div class="contenido-seccion">
+        <h2>HABILIDADES</h2>
+        <div class="fila">
+            <div class="col">
+                <h3>Habilidades Técnicas</h3>
+                <div class="habilidades">
+                    <span>Python: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>HTML: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>CSS: Básico</span>
+                </div>
+                <div class="habilidades">
+                    <span>JavaScript: Básico</span>
+                </div>
+                <div class="habilidades">
+                    <span>Wordpress: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>Photoshop: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>Word: Intermedio</span>
+                </div>
+                <div class="habilidades">
+                    <span>Excel: Básico</span>
+                </div>
+                <div class="habilidades">
+                    <span>PowerBI: Básico</span>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Habilidades Profesionales</h3>
+                <div class="habilidades">
+                    <span>Trabajo en equipo</span>
+                </div>
+                <div class="habilidades">
+                    <span>Creatividad</span>
+                </div>
+                <div class="habilidades">
+                    <span>Dedicación</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--cv-->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>CURRICULUM</h2>
+        <div class="fila">
+            <div class="columna">
+                <h3>Educación</h3>
+                <div class="colum">
+                    <h4>-Inglés para Desarrolladores de Software</h4>
+                    <span class="lugar">Centro Universitario de Idiomas (CUI)</span>
+                    <span class="fecha">- (2023)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Programación en Python</h4>
+                    <span class="lugar">Academia CIMNE IBER y Mil Programadores Salteños</span>
+                    <span class="fecha">- (Marzo-Agosto 2023)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Desarrollo Web con JavaScript</h4>
+                    <span class="lugar">Argentina Programa</span>
+                    <span class="fecha">- (Febrero-Mayo 2023)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Diseño de Páginas Web con HTML5 y CSS3</h4>
+                    <span class="lugar">Fundación Florencio Pérez y UTN La Plata</span>
+                    <span class="fecha">- (Septiembre-Diciembre 2022)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Diseño de Páginas Web con Wordpress</h4>
+                    <span class="lugar">Centro de Formación Profesional 401</span>
+                    <span class="fecha">-(Agosto-Diciembre 2022)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Programación Informática</h4>
+                    <span class="lugar">Centro de Formación Profesional 426</span>
+                    <span class="fecha">- (Marzo-Diciembre 2022)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Programación y Automatización Robótica</h4>
+                    <span class="lugar">Centro de Formación Profesional 401</span>
+                    <span class="fecha">- (Julio-Diciembre 2022)</span>
+                </div>
+                <div class="colum">
+                    <h4>-Operador y Automatización Robótica</h4>
+                    <span class="lugar">Centro de Formación Profesional 401</span>
+                    <span class="fecha">- (Marzo-Julio 2022)</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--portfolio-->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="styles/images/proyAlarm.jpg" alt="">
+                <div class="overlay">
+                    <h3>SAAM (Sistema de Alarmas para Adultos Mayores)</h3>
+                    <p>Python</p>
+                </div>
+                <!-- Botón de descarga -->
+            <a href="descargas/Manual proy alarma.pdf" download="Manual SAAM.pdf" class="download-button">
+                Descargar Manual <i class="fas fa-cloud-arrow-down"></i>
+                <span class="overlay"></span>
+            </a>
+            </div>
+            <div class="proyecto">
+                <img src="styles/images/proyBar.jpg" alt="">
+                <div class="overlay">
+                    <h3>Let's Party</h3>
+                    <p>HTML, CSS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="styles/images/proyPanad.jpg" alt="">
+                <div class="overlay">
+                    <h3>Pastelería Ñam Ñam</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <div class="col"> 
+                <!--form-->
+                <form action="https://formspree.io/f/xdknwnwd" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="text" name="telefono" placeholder="Número Telefónico" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="tema" placeholder="Tema" required>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="col"> <!--tel-->
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>La Plata, Buenos Aires</li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        +54 11 23938727
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        E-mail: milebravo1827@gmail.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
